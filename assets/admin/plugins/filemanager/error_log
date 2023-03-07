@@ -1,0 +1,89 @@
+[27-Jun-2018 13:50:21 Europe/Rome] PHP Fatal error:  Uncaught Error: Call to undefined function mime_content_type() in /home/jbworkin/public_html/averon/assets/filemanager/include/php_image_magician.php:2723
+Stack trace:
+#0 /home/jbworkin/public_html/averon/assets/filemanager/include/php_image_magician.php(230): imageLib->openImage('../source/4wyHT...')
+#1 /home/jbworkin/public_html/averon/assets/filemanager/include/utils.php(377): imageLib->__construct('../source/4wyHT...')
+#2 /home/jbworkin/public_html/averon/assets/filemanager/UploadHandler.php(1431): create_img('../source/4wyHT...', '../thumbs/4wyHT...', 122, 91)
+#3 /home/jbworkin/public_html/averon/assets/filemanager/UploadHandler.php(1382): UploadHandler->onUploadEnd(Array)
+#4 /home/jbworkin/public_html/averon/assets/filemanager/UploadHandler.php(187): UploadHandler->post(false)
+#5 /home/jbworkin/public_html/averon/assets/filemanager/UploadHandler.php(171): UploadHandler->initialize()
+#6 /home/jbworkin/public_html/averon/assets/filemanager/upload.php(152): UploadHandler->__construct(Array, true, Array)
+#7 in /home/jbworkin/public_html/averon/assets/filemanager/include/php_image_magician.php on line 2723
+[27-Jun-2018 13:50:43 Europe/Rome] PHP Fatal error:  Uncaught Error: Call to undefined function mime_content_type() in /home/jbworkin/public_html/averon/assets/filemanager/include/php_image_magician.php:2723
+Stack trace:
+#0 /home/jbworkin/public_html/averon/assets/filemanager/include/php_image_magician.php(230): imageLib->openImage('../source/4wyHT...')
+#1 /home/jbworkin/public_html/averon/assets/filemanager/include/utils.php(377): imageLib->__construct('../source/4wyHT...')
+#2 /home/jbworkin/public_html/averon/assets/filemanager/dialog.php(1077): create_img('../source/4wyHT...', '../thumbs/4wyHT...', 122, 91, 'crop', Array)
+#3 {main}
+  thrown in /home/jbworkin/public_html/averon/assets/filemanager/include/php_image_magician.php on line 2723
+[27-Jun-2018 13:52:00 Europe/Rome] PHP Fatal error:  Uncaught Error: Call to undefined function mime_content_type() in /home/jbworkin/public_html/averon/assets/filemanager/include/php_image_magician.php:2723
+Stack trace:
+#0 /home/jbworkin/public_html/averon/assets/filemanager/include/php_image_magician.php(230): imageLib->openImage('../images/xakti...')
+#1 /home/jbworkin/public_html/averon/assets/filemanager/include/utils.php(377): imageLib->__construct('../images/xakti...')
+#2 /home/jbworkin/public_html/averon/assets/filemanager/dialog.php(1077): create_img('../images/xakti...', '../images/thumb...', 122, 91, 'crop', Array)
+#3 {main}
+  thrown in /home/jbworkin/public_html/averon/assets/filemanager/include/php_image_magician.php on line 2723
+[27-Jun-2018 13:52:23 Europe/Rome] PHP Fatal error:  Uncaught Error: Call to undefined function mime_content_type() in /home/jbworkin/public_html/averon/assets/filemanager/include/php_image_magician.php:2723
+Stack trace:
+#0 /home/jbworkin/public_html/averon/assets/filemanager/include/php_image_magician.php(230): imageLib->openImage('../images/4wyHT...')
+#1 /home/jbworkin/public_html/averon/assets/filemanager/include/utils.php(377): imageLib->__construct('../images/4wyHT...')
+#2 /home/jbworkin/public_html/averon/assets/filemanager/UploadHandler.php(1431): create_img('../images/4wyHT...', '../images/thumb...', 122, 91)
+#3 /home/jbworkin/public_html/averon/assets/filemanager/UploadHandler.php(1382): UploadHandler->onUploadEnd(Array)
+#4 /home/jbworkin/public_html/averon/assets/filemanager/UploadHandler.php(187): UploadHandler->post(false)
+#5 /home/jbworkin/public_html/averon/assets/filemanager/UploadHandler.php(171): UploadHandler->initialize()
+#6 /home/jbworkin/public_html/averon/assets/filemanager/upload.php(152): UploadHandler->__construct(Array, true, Array)
+#7 in /home/jbworkin/public_html/averon/assets/filemanager/include/php_image_magician.php on line 2723
+[27-Jun-2018 13:53:51 Europe/Rome] PHP Fatal error:  Uncaught Error: Call to undefined function mime_content_type() in /home/jbworkin/public_html/averon/assets/filemanager/include/php_image_magician.php:2723
+Stack trace:
+#0 /home/jbworkin/public_html/averon/assets/filemanager/include/php_image_magician.php(230): imageLib->openImage('../images/4wyHT...')
+#1 /home/jbworkin/public_html/averon/assets/filemanager/include/utils.php(377): imageLib->__construct('../images/4wyHT...')
+#2 /home/jbworkin/public_html/averon/assets/filemanager/UploadHandler.php(1431): create_img('../images/4wyHT...', '../images/thumb...', 122, 91)
+#3 /home/jbworkin/public_html/averon/assets/filemanager/UploadHandler.php(1382): UploadHandler->onUploadEnd(Array)
+#4 /home/jbworkin/public_html/averon/assets/filemanager/UploadHandler.php(187): UploadHandler->post(false)
+#5 /home/jbworkin/public_html/averon/assets/filemanager/UploadHandler.php(171): UploadHandler->initialize()
+#6 /home/jbworkin/public_html/averon/assets/filemanager/upload.php(152): UploadHandler->__construct(Array, true, Array)
+#7 in /home/jbworkin/public_html/averon/assets/filemanager/include/php_image_magician.php on line 2723
+[27-Jun-2018 13:56:53 Europe/Rome] PHP Fatal error:  Uncaught Error: Call to undefined function mime_content_type() in /home/jbworkin/public_html/averon/assets/filemanager/include/php_image_magician.php:2723
+Stack trace:
+#0 /home/jbworkin/public_html/averon/assets/filemanager/include/php_image_magician.php(230): imageLib->openImage('../images/xakti...')
+#1 /home/jbworkin/public_html/averon/assets/filemanager/include/utils.php(377): imageLib->__construct('../images/xakti...')
+#2 /home/jbworkin/public_html/averon/assets/filemanager/dialog.php(1077): create_img('../images/xakti...', '../images/thumb...', 122, 91, 'crop', Array)
+#3 {main}
+  thrown in /home/jbworkin/public_html/averon/assets/filemanager/include/php_image_magician.php on line 2723
+[27-Jun-2018 14:00:16 Europe/Rome] PHP Fatal error:  Uncaught Error: Call to undefined function finfo_file() in /home/jbworkin/public_html/averon/assets/filemanager/include/php_image_magician.php:2724
+Stack trace:
+#0 /home/jbworkin/public_html/averon/assets/filemanager/include/php_image_magician.php(230): imageLib->openImage('../images/xakti...')
+#1 /home/jbworkin/public_html/averon/assets/filemanager/include/utils.php(377): imageLib->__construct('../images/xakti...')
+#2 /home/jbworkin/public_html/averon/assets/filemanager/dialog.php(1077): create_img('../images/xakti...', '../images/thumb...', 122, 91, 'crop', Array)
+#3 {main}
+  thrown in /home/jbworkin/public_html/averon/assets/filemanager/include/php_image_magician.php on line 2724
+[27-Jun-2018 14:00:21 Europe/Rome] PHP Fatal error:  Uncaught Error: Call to undefined function finfo_file() in /home/jbworkin/public_html/averon/assets/filemanager/include/php_image_magician.php:2724
+Stack trace:
+#0 /home/jbworkin/public_html/averon/assets/filemanager/include/php_image_magician.php(230): imageLib->openImage('../images/xakti...')
+#1 /home/jbworkin/public_html/averon/assets/filemanager/include/utils.php(377): imageLib->__construct('../images/xakti...')
+#2 /home/jbworkin/public_html/averon/assets/filemanager/dialog.php(1077): create_img('../images/xakti...', '../images/thumb...', 122, 91, 'crop', Array)
+#3 {main}
+  thrown in /home/jbworkin/public_html/averon/assets/filemanager/include/php_image_magician.php on line 2724
+[27-Jun-2018 14:02:18 Europe/Rome] PHP Fatal error:  Uncaught Error: Call to undefined function finfo_file() in /home/jbworkin/public_html/averon/assets/filemanager/include/php_image_magician.php:2724
+Stack trace:
+#0 /home/jbworkin/public_html/averon/assets/filemanager/include/php_image_magician.php(230): imageLib->openImage('../images/xakti...')
+#1 /home/jbworkin/public_html/averon/assets/filemanager/include/utils.php(377): imageLib->__construct('../images/xakti...')
+#2 /home/jbworkin/public_html/averon/assets/filemanager/dialog.php(1077): create_img('../images/xakti...', '../images/thumb...', 122, 91, 'crop', Array)
+#3 {main}
+  thrown in /home/jbworkin/public_html/averon/assets/filemanager/include/php_image_magician.php on line 2724
+[27-Jun-2018 14:02:54 Europe/Rome] PHP Fatal error:  Uncaught Error: Class 'finfo' not found in /home/jbworkin/public_html/averon/assets/filemanager/config/config.php:6
+Stack trace:
+#0 /home/jbworkin/public_html/averon/assets/filemanager/include/php_image_magician.php(2723): _mime_content_type('../images/xakti...')
+#1 /home/jbworkin/public_html/averon/assets/filemanager/include/php_image_magician.php(230): imageLib->openImage('../images/xakti...')
+#2 /home/jbworkin/public_html/averon/assets/filemanager/include/utils.php(377): imageLib->__construct('../images/xakti...')
+#3 /home/jbworkin/public_html/averon/assets/filemanager/dialog.php(1077): create_img('../images/xakti...', '../images/thumb...', 122, 91, 'crop', Array)
+#4 {main}
+  thrown in /home/jbworkin/public_html/averon/assets/filemanager/config/config.php on line 6
+[05-Jul-2018 07:52:35 Europe/Rome] PHP Notice:  Undefined index: RF in /home/jbworkin/public_html/averon/assets/filemanager/include/utils.php on line 3
+[10-Jul-2018 15:23:59 Europe/Rome] PHP Notice:  Undefined index: RF in /home/jbworkin/public_html/averon/assets/filemanager/include/utils.php on line 3
+[10-Jul-2018 15:24:23 Europe/Rome] PHP Notice:  Undefined index: RF in /home/jbworkin/public_html/averon/assets/filemanager/include/utils.php on line 3
+[10-Jul-2018 15:24:50 Europe/Rome] PHP Notice:  Undefined index: RF in /home/jbworkin/public_html/averon/assets/filemanager/include/utils.php on line 3
+[11-Jul-2018 09:00:05 Europe/Rome] PHP Notice:  Undefined index: RF in /home/jbworkin/public_html/averon/assets/filemanager/include/utils.php on line 3
+[18-Jul-2018 09:39:14 Europe/Rome] PHP Notice:  Undefined index: RF in /home/jbworkin/public_html/averon/assets/filemanager/include/utils.php on line 3
+[18-Jul-2018 09:39:27 Europe/Rome] PHP Notice:  Undefined index: RF in /home/jbworkin/public_html/averon/assets/filemanager/include/utils.php on line 3
+[02-Aug-2018 14:15:31 Europe/Rome] PHP Notice:  Undefined index: RF in /home/jbworkin/public_html/averon/assets/filemanager/include/utils.php on line 3
+[02-Aug-2018 14:16:24 Europe/Rome] PHP Notice:  Undefined index: RF in /home/jbworkin/public_html/averon/assets/filemanager/include/utils.php on line 3

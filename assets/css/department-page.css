@@ -1,0 +1,66 @@
+.img-hover-zoom--colorize img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  margin-top: 20px;
+  padding: 1px;
+  object-fit:contain;
+  transition: transform .5s;
+}
+
+.img-hover-zoom--colorize:hover img {
+  filter: grayscale(100);
+  transform: scale(1.05);
+}
+
+.role {
+  color: #7a7a7a;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fab {
+  font-size: 1.5rem;
+  color: darkgray;
+  transition: transform .5s;
+}
+
+.fab:hover {
+  color: black;
+  transform: scale(1.1);
+}
+
+.card h4 {
+  font-size: 1rem;
+}
+
+
+/* MEDIA */
+
+@media only screen and (min-width: 1200px) {
+  .img-hover-zoom--colorize img {
+      width: 210px;
+      height: 210px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .h3,
+  h3 {
+      font-size: 2rem;
+  }
+}
+#myTabContent span{
+color: black;
+padding: 30px;
+font-weight: 700;
+font-size: 18px;
+
+}
+
+
+/* test code */
